@@ -1,5 +1,5 @@
 
-#WEBAPP-DB
+#WEBAPP-DB   
 ---------------------------------------------------------------------------------------------
 
 ### Summary
@@ -41,5 +41,6 @@ Database migration is done using Flyway to ensure zero-downtime database migrati
     - Flyway provides detailed output about the migration process, which is written to the standard output     (STDOUT). This provides a clear overview of the migration's progress and status.
 
 
+ 
 _This project is part of CSYE7125 course_
 
