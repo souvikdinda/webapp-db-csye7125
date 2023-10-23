@@ -29,11 +29,9 @@ pipeline {
         stage('Push Docker Image to Quay.io') {
             steps {
                 script {
-                    // Log in to Quay.io using your credentials
                     withCredentials([usernamePassword(credentialsId: 'quay_credentials', usernameVariable: 'QUAY_USERNAME', passwordVariable: 'QUAY_PASSWORD')]) {
                         sh "docker login -u $QUAY_USERNAME -p $QUAY_PASSWORD quay.io"
                     }
-                    // Push the Docker image to Quay.io
                     sh "docker push quay.io/csye-7125/webapp-db:${releaseTag}"
                 }
             }
