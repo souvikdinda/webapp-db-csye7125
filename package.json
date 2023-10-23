@@ -1,0 +1,24 @@
+{
+  "name": "webapp-db",
+  "version": "1.0.0",
+  "description": "Flyway Migration for Webapp DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csye7125-fall2023-group07/webapp-db.git"
+  },
+  "author": "Souvik Dinda, Naga Vaishnavi Puppala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csye7125-fall2023-group07/webapp-db/issues"
+  },
+  "homepage": "https://github.com/csye7125-fall2023-group07/webapp-db#readme",
+  "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.2.1",
+    "semantic-release": "^22.0.5"
+  }
+}
