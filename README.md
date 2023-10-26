@@ -15,9 +15,9 @@ Following prerequisites to be installed:
 
 **Database Setup**
 
-1. Create a New Database- The application requires a database named app. 
+1. Create a New Database- The application requires a database named `app` 
 
-2. Create a Schema - In PostgreSQL, a schema named app will be created for the application. All database objects will be contained within this schema to avoid conflicts with the public schema
+2. Create a Schema - In PostgreSQL, a schema named `app` will be created for the application. All database objects will be contained within this schema to avoid conflicts with the public schema
 
 **Database Migrations**
 
