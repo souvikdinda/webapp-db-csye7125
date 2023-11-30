@@ -15,10 +15,5 @@
   "bugs": {
     "url": "https://github.com/csye7125-fall2023-group07/webapp-db/issues"
   },
-  "homepage": "https://github.com/csye7125-fall2023-group07/webapp-db#readme",
-  "devDependencies": {
-    "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^9.2.1",
-    "semantic-release": "^22.0.5"
-  }
+  "homepage": "https://github.com/csye7125-fall2023-group07/webapp-db#readme"
 }
